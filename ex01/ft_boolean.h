@@ -6,11 +6,12 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/17 17:50:35 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/18 10:37:25 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/18 10:59:22 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_BOOLEAN_H
+# include <unistd.h>
 # define FT_BOOLEAN_H
 
 # define EVEN(n) (n % 2 == 1)
