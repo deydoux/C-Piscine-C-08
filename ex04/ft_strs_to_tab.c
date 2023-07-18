@@ -6,7 +6,7 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/18 11:40:53 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/18 15:15:13 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/18 15:27:28 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,19 +64,4 @@ struct s_stock_str	*ft_strs_to_str(int ac, char **av)
 	stock_strs[i].size = 1;
 	stock_strs[i].copy = "\0";
 	return (stock_strs);
-}
-
-#include <stdio.h>
-
-int	main(int argc, char **argv)
-{
-	int			i;
-	t_stock_str	*stock_strs;
-
-	i = -1;
-	stock_strs = ft_strs_to_str(argc, argv);
-	while (++i <= argc)
-	{
-		printf("str|%s| size|%d| copy|%s|\n", stock_strs[i].str, stock_strs[i].size, stock_strs[i].copy);
-	}
 }
