@@ -6,7 +6,7 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/18 11:40:53 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/18 15:27:28 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/18 15:40:48 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,8 +60,8 @@ struct s_stock_str	*ft_strs_to_str(int ac, char **av)
 		ft_strcpy(stock_str.copy, stock_str.str);
 		stock_strs[i] = stock_str;
 	}
-	stock_strs[i].str = "\0";
+	stock_strs[i].str = 0;
 	stock_strs[i].size = 1;
-	stock_strs[i].copy = "\0";
+	stock_strs[i].copy = 0;
 	return (stock_strs);
 }
