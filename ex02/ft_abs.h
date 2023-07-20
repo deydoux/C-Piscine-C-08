@@ -6,13 +6,13 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/18 10:41:00 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/18 10:45:52 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/20 08:43:52 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef FT_ABS_H
 # define FT_ABS_H
 
-# define ABS(Value) (Value * ((Value > 0) - (Value < 0)))
+# define ABS(value) (value * ((value > 0) - (value < 0)))
 
-#endif FT_ABS_H
+#endif
