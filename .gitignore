@@ -2,3 +2,4 @@ main.c
 test.c
 a.out
 .*.swp
+ft_stock_str.h
