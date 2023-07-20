@@ -6,7 +6,7 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/17 17:50:35 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/18 10:59:22 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/20 08:38:53 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 # include <unistd.h>
 # define FT_BOOLEAN_H
 
-# define EVEN(n) (n % 2 == 1)
+# define EVEN(n) (n % 2 == 0)
 
 typedef enum boolean
 {
