@@ -6,7 +6,7 @@
 /*   By: deydoux <deydoux@student.42lyon.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/17 17:50:35 by deydoux           #+#    #+#             */
-/*   Updated: 2023/07/20 08:38:53 by deydoux          ###   ########.fr       */
+/*   Updated: 2023/07/24 10:14:04 by deydoux          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,8 @@ typedef enum boolean
 	TRUE = 1
 }	t_bool;
 
-# define EVEN_MSG "I have an even number of arguments."
-# define ODD_MSG "I have an odd number of arguments."
+# define EVEN_MSG "I have an even number of arguments.\n"
+# define ODD_MSG "I have an odd number of arguments.\n"
 # define SUCCESS 0
 
 #endif
